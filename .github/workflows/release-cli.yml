@@ -15,6 +15,7 @@
 
 name: release-cli
 on:
+  workflow_dispatch:
   push:
     # Enable when testing release infrastructure on a branch.
     # branches:
